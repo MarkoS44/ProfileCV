@@ -15,6 +15,12 @@ body{
 .footer{
     
 }
+h2{
+    text-align:center;
+    font-size: 30px;
+    font-weight:bold;
+    padding-top: 60px;
+}
 .column{
      
     width:1000px;
@@ -148,7 +154,7 @@ height: 1200px;
 
 }
 .tehnologija img {
-    margin-top: 10px;
+    margin-top: 0px;
     width: 40px;
     height:40px;
 
@@ -158,4 +164,107 @@ height: 1200px;
     font-size:25px;
     padding-bottom: 50px;
 }
+#usluge{
+    color:black;
+    font-size: 30px;
+    padding-top: 50px;
+}
+#usluge h2{
+    padding-top:40px;
+    padding-bottom:100px;
+}
+.service-row{
+    display:flex;
+    margin-bottom: 100px;
+    justify-content:space-between;
+}
+.service-row > div {
+    text-align:center;
+    position:relative;
+    width:301px;
+    height: 200px;
+    border: 2px solid #000;
+    
+}
+.service-row > div > img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    margin: 0px;
+    
+    
+}
+.service-row > div > p {
+    position: absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding:5px;
+    background-color: #ffffffE7;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color:black;
+    border-top: 1px solid #000;
+}
+#proizvodi h2{
+    padding-top: 50px;
+    justify-content:center;
+   
 
+}
+.matrica {
+    margin-top:40px;
+    height:500px;
+    width: auto;
+    display:grid;
+    grid-template:  "a b c" 
+                    "d b e"
+                    "f f g";
+    align-content:space-between;
+    justify-content:center;
+    
+}
+#proizvod-a {
+    padding: 10px;
+    grid-area: a;
+}
+#proizvod-b {
+    
+    grid-area: b;
+}
+#proizvod-c {
+    padding: 10px;
+    grid-area: c;
+}
+#proizvod-d {
+    grid-area: d;
+    
+}
+#proizvod-e {
+    grid-area: e;
+}
+#proizvod-f {
+    grid-area: f;
+}
+#proizvod-g {
+    grid-area: g;
+}
+.proizvodi {
+    display:grid;
+    grid-template:"region";
+    align-content:space-around;
+    justify-content:space-around;
+}
+.proizvodi > img {
+    grid-area: region;
+}
+.proizvodi > span{
+    grid-area: region;
+    align-items: center;
+    margin: 0px 190px;
+    
+
+    
+}
